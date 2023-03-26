@@ -1,0 +1,131 @@
+//=================================================================================================================================
+
+event DamagedPlayer
+{
+	Animate	CrueltyHit	Alpha	"255"	Linear	0.0 0.0
+	
+	Animate	CrueltyHit	Alpha	"0"		Linear	0.05 0.25
+}
+
+//=================================================================================================================================
+
+event HudHealthBonusPulse
+{
+}
+
+event HudHealthBonusPulseStop
+{
+}
+
+//=================================================================================================================================
+
+
+event HudHealthDyingPulse
+{
+}
+
+event HudHealthDyingPulseStop
+{
+}
+
+//=================================================================================================================================
+
+event HudMedicCharged
+{
+	Animate ChargeMeter      					FgColor		"Ubercharge Full 1"			Linear 	0.0	0.6
+	
+	Animate ChargeMeter     					FgColor		"Ubercharge Full 2"			Linear 	0.6	0.6
+
+	RunEvent HudMedicChargedLoop    			1.2
+}
+
+event HudMedicChargedLoop
+{
+	RunEvent HudMedicCharged 					0.0
+}
+
+event HudMedicChargedStop
+{
+	StopEvent HudMedicCharged 					0.0
+	StopEvent HudMedicChargedLoop 				0.0
+
+	Animate ChargeMeter      					FgColor		"Ubercharge Bar"        	Linear	0.0	0.0001
+}
+
+//=================================================================================================================================
+
+event HudSpyDisguiseChanged
+{
+    Animate PlayerStatusSpyOutlineImage        Alpha        "255"            Linear 0.0 0.2
+    
+    Animate PlayerStatusSpyOutlineImage        Size        "55 55"        Linear 0.0 0.2
+
+    RunEvent HudSpyDisguiseHide    0.7
+}
+
+event HudSpyDisguiseHide
+{
+    Animate PlayerStatusSpyOutlineImage        Size        "55 55"            Linear 0.0 0.2
+    
+    Animate PlayerStatusSpyOutlineImage        Alpha        "0"                Linear 0.2 0.1
+}
+
+event HudSpyDisguiseFadeIn
+{
+    RunEvent HudSpyDisguiseChanged    0
+    Animate PlayerStatusSpyImage            Alpha        "255"            Linear 0.9 0.1    
+}
+
+event HudSpyDisguiseFadeOut
+{
+    RunEvent HudSpyDisguiseChanged    0
+    Animate PlayerStatusSpyImage            Alpha        "0"                Linear 0.9 0.1    
+}
+
+//=================================================================================================================================
+
+event ActiveTimerHighlight
+{
+	Animate TimePanelValue 						FgColor		"255 255 255 255"			Linear 	0.1 0.1
+	Animate TimePanelValue 						FgColor		"255 255 255 255"			Linear 	0.3 0.1
+
+	Animate TimePanelValue						FgColor		"255 255 255 255"			Linear 	0.5 0.1
+	Animate TimePanelValue 						FgColor		"255 255 255 255"			Linear 	0.7 0.1
+
+	Animate TimePanelValue 						FgColor		"255 255 255 255"			Linear 	0.9 0.1
+	Animate TimePanelValue 						FgColor		"255 255 255 255"			Linear 	1.1 0.1
+
+	Animate TimePanelValue 						FgColor		"255 255 255 255"			Linear 	1.3 0.3
+}
+
+event ActiveTimerDim
+{
+	Animate TimePanelValue 						FgColor		"255 255 255 255"			Linear 	0.0 0.4
+}
+
+//=================================================================================================================================
+
+event CompetitiveGame_LowerChatWindow
+{
+}
+event CompetitiveGame_RestoreChatWindow
+{
+}
+event HudTournament_MoveChatWindow
+{
+}
+
+//=================================================================================================================================
+
+event TeamStatus_PlayerDead
+{
+	SetVisible DeathPanel  0 0
+	SetVisible SkullPanel  0 0
+	SetVisible respawntime  1 0
+
+	Animate DeathPanel ypos 0 Accel 0 0.2
+	Animate SkullPanel ypos 0 Accel 0 0.2
+	Animate respawntime ypos 0 Accel 0 0.2
+}
+
+//=================================================================================================================================
