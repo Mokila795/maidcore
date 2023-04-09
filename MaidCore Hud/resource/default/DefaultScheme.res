@@ -55,10 +55,10 @@ Scheme
 		//Changed black to a NTSC safe color
 		"GreenSolid"		 "76 107 34 255"
 		
-		"Black"				"46 43 42 255"
+		"Black"				"0 0 0 255"
 		"TransparentBlack"	"0 0 0 196"
 		"TransparentLightBlack"	"0 0 0 90"
-		"FooterBGBlack"		"52 48 55 255"
+		"FooterBGBlack"		"0 0 0 255"
 		
 		"HUDBlueTeam"		"104 124 155 127"
 		"HUDRedTeam"		"180 92 77 127"
@@ -73,7 +73,7 @@ Scheme
 		
 		"CreditsGreen"		"94 150 49 255"
 		
-		"Gray"				"178 178 178 255"
+		"Gray"				"128 128 128 255"
 
 		"Blank"				"0 0 0 0"
 		"ForTesting"		"255 0 0 32"

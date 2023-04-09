@@ -44,7 +44,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"labelText"			"?  Random (&R)"
+		"labelText"			"? | Random"
 		"textAlignment"		"west"
 		"Command"			"select 12"
 		"Default"			"1"
@@ -108,7 +108,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"labelText"			"&1  Scout"
+		"labelText"			"&1 | Scout"
 		"textAlignment"		"west"
 		"Command"			"select 1"
 		"Default"			"0"
@@ -152,7 +152,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"labelText"			"&2  Soldier"
+		"labelText"			"&2 | Soldier"
 		"textAlignment"		"west"
 		"Command"			"select 3"
 		"Default"			"0"
@@ -211,7 +211,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"labelText"			"&3  Pyro"
+		"labelText"			"&3 | Pyro"
 		"textAlignment"		"west"
 		"Command"			"select 7"
 		"Default"			"0"
@@ -290,7 +290,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"labelText"			"&4  Demoman"
+		"labelText"			"&4 | Demoman"
 		"textAlignment"		"west"
 		"Command"			"select 4"
 		"Default"			"0"
@@ -349,7 +349,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"labelText"			"&5  Heavy"
+		"labelText"			"&5 | Heavy"
 		"textAlignment"		"west"
 		"Command"			"select 6"
 		"Default"			"0"
@@ -408,7 +408,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"labelText"			"&6  Engineer"
+		"labelText"			"&6 | Engineer"
 		"textAlignment"		"west"
 		"Command"			"select 9"
 		"Default"			"0"
@@ -487,7 +487,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"labelText"			"&7  Medic"
+		"labelText"			"&7 | Medic"
 		"textAlignment"		"west"
 		"Command"			"select 5"
 		"Default"			"0"
@@ -546,7 +546,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"labelText"			"&8  Sniper"
+		"labelText"			"&8 | Sniper"
 		"textAlignment"		"west"
 		"Command"			"select 2"
 		"Default"			"0"
@@ -605,7 +605,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"labelText"			"&9  Spy"
+		"labelText"			"&9 | Spy"
 		"textAlignment"		"west"
 		"Command"			"select 8"
 		"Default"			"0"
@@ -1039,7 +1039,7 @@
 		"labelText"		"%numScout%"
 		"textAlignment"	"east"
 		"font"			"surface11"
-		"fgcolor"		"152 255 112 255"
+		"fgcolor"		"248 156 255 255"
 	}	
 	
 	"numSoldier"
@@ -1059,7 +1059,7 @@
 		"labelText"		"%numSoldier%"
 		"textAlignment"	"east"
 		"font"			"surface11"
-		"fgcolor"		"152 255 112 255"
+		"fgcolor"		"248 156 255 255"
 	}		
 	
 	"numPyro"
@@ -1079,7 +1079,7 @@
 		"labelText"		"%numPyro%"
 		"textAlignment"	"east"
 		"font"			"surface11"
-		"fgcolor"		"152 255 112 255"
+		"fgcolor"		"248 156 255 255"
 	}			
 	
 	"numDemoman"
@@ -1099,7 +1099,7 @@
 		"labelText"		"%numDemoman%"
 		"textAlignment"	"east"
 		"font"			"surface11"
-		"fgcolor"		"152 255 112 255"
+		"fgcolor"		"248 156 255 255"
 	}				
 	
 	"numHeavy"
@@ -1119,7 +1119,7 @@
 		"labelText"		"%numHeavy%"
 		"textAlignment"	"east"
 		"font"			"surface11"
-		"fgcolor"		"152 255 112 255"
+		"fgcolor"		"248 156 255 255"
 	}					
 	
 	"numEngineer"
@@ -1139,7 +1139,7 @@
 		"labelText"		"%numEngineer%"
 		"textAlignment"	"east"
 		"font"			"surface11"
-		"fgcolor"		"152 255 112 255"
+		"fgcolor"		"248 156 255 255"
 	}						
 	
 	"numMedic"
@@ -1159,7 +1159,7 @@
 		"labelText"		"%numMedic%"
 		"textAlignment"	"east"
 		"font"			"surface11"
-		"fgcolor"		"152 255 112 255"
+		"fgcolor"		"248 156 255 255"
 	}							
 	
 	"numSniper"
@@ -1179,7 +1179,7 @@
 		"labelText"		"%numSniper%"
 		"textAlignment"	"east"
 		"font"			"surface11"
-		"fgcolor"		"152 255 112 255"
+		"fgcolor"		"248 156 255 255"
 	}						
 	
 	"numSpy"
@@ -1199,7 +1199,7 @@
 		"labelText"		"%numSpy%"
 		"textAlignment"	"east"
 		"font"			"surface11"
-		"fgcolor"		"152 255 112 255"
+		"fgcolor"		"248 156 255 255"
 	}
 	
 	"MvMUpgradeImageScout"
@@ -1519,9 +1519,9 @@
 		"enabled"		"1"
 		"image"			"../hud/color_panel_brown"
 		"scaleImage"		"1"
-		"teambg_1"		"../hud/color_panel_brown"
-		"teambg_2"		"../hud/color_panel_red"
-		"teambg_3"		"../hud/color_panel_blu"
+		"teambg_1"		"../hud/winpanel_bg"
+		"teambg_2"		"../hud/winpanel_bg"
+		"teambg_3"		"../hud/winpanel_bg"
 		"scaleImage"		"1"			
 		"src_corner_height"		"23"
 		"src_corner_width"		"23"			

@@ -41,7 +41,7 @@
 			"zpos"			"1"
 			
 			"color_ready"	"0 255 0 220"
-			"color_notready"	"0 0 0 220"
+			"color_notready"	"255 0 0 220"
 			
 			"playername"
 			{

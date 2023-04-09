@@ -37,7 +37,7 @@
 		"linespacing"       						"13"
 		"linegap"       							"1"
 		"proportionaltoparent"						"1"
-		"fgcolor"		          					"blue"
+		"fgcolor"		          					"128 130 255 255"
 	}
 	"RedPlayerList"
 	{
@@ -53,7 +53,7 @@
 		"linespacing"       						"13"
 		"linegap"       							"1"
 		"proportionaltoparent"						"1"
-		"textcolor"									"red"
+		"textcolor"									"253 128 255 255"
 	}
 	"PlayerListBG"
 	{

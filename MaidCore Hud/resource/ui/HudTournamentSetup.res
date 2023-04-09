@@ -116,7 +116,7 @@
 		"pinCorner"		"2"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		"Not Ready"
+		"labelText"		"Unready"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
